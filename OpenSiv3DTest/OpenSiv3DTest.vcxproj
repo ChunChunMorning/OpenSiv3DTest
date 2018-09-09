@@ -261,10 +261,12 @@
     <Xml Include="App\example\test.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\MacTest.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\VSTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MacTest.hpp" />
     <ClInclude Include="src\VSTest.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

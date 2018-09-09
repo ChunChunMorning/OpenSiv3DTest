@@ -235,9 +235,15 @@
     <ClCompile Include="src\VSTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\MacTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\VSTest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MacTest.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
