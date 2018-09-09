@@ -261,6 +261,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\VSTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\VSTest.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

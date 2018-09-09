@@ -1,5 +1,6 @@
 ﻿
 # include <Siv3D.hpp> // OpenSiv3D v0.2.8
+# include "VSTest.hpp"
 
 void Main()
 {
@@ -18,5 +19,7 @@ void Main()
 		textureCat.resized(80).draw(540, 380);
 
 		Circle(Cursor::Pos(), 60).draw(ColorF(1, 0, 0, 0.5));
+
+		VSTest().draw();
 	}
 }
