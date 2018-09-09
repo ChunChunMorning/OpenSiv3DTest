@@ -1,6 +1,7 @@
 ﻿
 # include <Siv3D.hpp> // OpenSiv3D v0.2.8
 # include "VSTest.hpp"
+# include "MacTest.hpp"
 
 void Main()
 {
@@ -20,6 +21,8 @@ void Main()
 
 		Circle(Cursor::Pos(), 60).draw(ColorF(1, 0, 0, 0.5));
 
+		MacTest().draw();
+		
 		VSTest().draw();
 	}
 }
